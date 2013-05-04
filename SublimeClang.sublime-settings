@@ -1,0 +1,51 @@
+{
+    "inhibit_sublime_completions": false,
+    "show_output_panel": false,
+    "options":
+    [
+        "-Wall",
+        "-I/usr/include",
+        "-I/usr/lib/clang/4.1/include",
+        // "-I/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/",
+        // "-I/usr/lib/gcc/i686-apple-darwin11/4.2.1/include/",
+        // If you code for iOS, you want to have something like the following here:
+        // "-I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/",
+        "-isysroot",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk",
+        // "-D__IPHONE_OS_VERSION_MIN_REQUIRED=50100",
+        "-I/Users/shaxquan/Documents/Dev/cocos2d-2.0-x-2.0.4/cocos2dx",
+        "-I/Users/shaxquan/Documents/Dev/cocos2d-2.0-x-2.0.4/cocos2dx/include",
+        "-I/Users/shaxquan/Documents/Dev/cocos2d-2.0-x-2.0.4/external/Box2D/",
+        "-I/Users/shaxquan/Documents/Dev/cocos2d-2.0-x-2.0.4/cocos2dx/platform/ios",
+        "-I/Users/shaxquan/Documents/Dev/cocos2d-2.0-x-2.0.4/cocos2dx/kazmath/include",
+        "-I/Users/shaxquan/Documents/Dev/cocos2d-2.0-x-2.0.4/CocosDenshion/include",
+        "-I/Users/shaxquan/Documents/Dev/Projects/Cocos2dX204/Cocos2dX204/libs"
+
+
+        // "-I/Users/shaxquan/Projects/Spacetacular Voyage/Spacetacular Voyage/libs"
+        // "-I/Users/shaxquan/Projects/Insects/trunk/Insects/Insects/libs/cocos2d"
+        // "-IC:/MinGW/include",
+        // "-I/path/to/sources/1",
+        // "-I/path/to/sources/2"
+
+
+    ]
+
+    // "options":
+    // [
+    //     "-isystem", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/",
+    //     "-isystem", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/c++/4.2.1",
+    //     "-isystem", "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk",
+    //     "-isystem", "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk",
+    //     "-I/usr/include",
+    //     "-I/usr/lib/clang/4.1/include",
+    //     "-I/Users/shaxiaoquan/Documents/Dev/cocos2d-2.0-x-2.0.3/cocos2dx",
+    //     "-I/Users/shaxiaoquan/Documents/Dev/cocos2d-2.0-x-2.0.3/cocos2dx/include",
+    //     "-I/Users/shaxiaoquan/Documents/Dev/cocos2d-2.0-x-2.0.3/external/Box2D/",
+    //     "-I/Users/shaxiaoquan/Documents/Dev/cocos2d-2.0-x-2.0.3/cocos2dx/platform/ios",
+    //     "-I/Users/shaxiaoquan/Documents/Dev/cocos2d-2.0-x-2.0.3/cocos2dx/kazmath/include",
+    //     "-I/Users/shaxiaoquan/Projects/Spacetacular Voyage/Spacetacular Voyage/libs",
+    //     "-Wall"
+    // ]
+}

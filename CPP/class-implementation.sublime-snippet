@@ -1,0 +1,16 @@
+<snippet>
+	<name>Class Implementation</name>
+	<content><![CDATA[${TM_FILENAME/(.*?)(\..+)/$1/}::${TM_FILENAME/(.*?)(\..+)/$1/}(${1:arguments})
+{
+	${2:/* constructor content */}
+}
+
+${TM_FILENAME/(.*?)(\..+)/$1/}::~${TM_FILENAME/(.*?)(\..+)/$1/}()
+{
+	${3:/* destructor content */}
+}]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>classimp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++, source.objc++</scope>
+</snippet>
